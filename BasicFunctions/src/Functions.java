@@ -9,13 +9,13 @@ import java.util.stream.Collectors;
 public class Functions {
 
 	public static void main(String[] args) {
-		//Reverse a String
-		//		String str = "Spacemonk";
-		//		String reversedString ="";
-		//		for(int l = str.length() - 1; l >= 0 ;l--) {
-		//			reversedString = reversedString + str.charAt(l);
-		//		}
-		//		System.out.println(reversedString);
+//		Reverse a String
+				String str = "Spacemonk";
+				String reversedString ="";
+				for(int l = str.length() - 1; l >= 0 ;l--) {
+					reversedString = reversedString + str.charAt(l);
+				}
+				System.out.println(reversedString);
 
 		Map<String, Integer> toReverse = new HashMap<String, Integer>();
 		toReverse.put("Kevin", 8);
